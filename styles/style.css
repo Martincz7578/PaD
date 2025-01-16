@@ -1,19 +1,44 @@
+@font-face{
+    font-family: playwrite;
+    src: url(../fonts/PlaywriteAUSA-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: digital;
+    src: url(../fonts/Jersey15-Regular.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(160, 160, 160 );
+    background-color: #FFFDEC;
+    font-family: playwrite;
 }
 
 header{
+    border: #86A788;
+    border-width: 2xp;
     padding: 0;
     margin: 0;
-    background-color: rgb(80, 80, 80);
+    background-color: #86A788;
 }
 
 footer{
+    border: #86A788;
+    border-width: 2xp;
+    border-radius: 2px;
     padding: 0;
     margin: 0;
-    background-color: rgb(80, 80, 80);
+    background-color: #86A788;
+}
+
+.body{
+    margin: 2cm;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 hr{
@@ -22,21 +47,21 @@ hr{
 }
 
 button{
-    background-color: rgb(70, 70, 70);
+    font-family: digital;
+    background-color: #FFE2E2;
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    color: aquamarine;
+    color: #EEBEBE;
 }
 
 button:hover{
-    color: rgb(70, 70, 70);
-    background-color: aquamarine;
+    color: #FFE2E2;
+    background-color: #EEBEBE;
 }
 
 .flex-container{

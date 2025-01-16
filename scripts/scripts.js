@@ -17,10 +17,10 @@ $(document).ready(function(){
     $("#drivers").click(function(){
         window.location.href = "drivers.html";
     });
-    $("#1").click(function(){
+    $("#table").click(function(){
         window.location.href = "table.html";
     });
-    $("#2").click(function(){
+    $("#form").click(function(){
         window.location.href = "form.html";
     });
 });
