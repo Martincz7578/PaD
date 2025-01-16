@@ -20,7 +20,7 @@ $(document).ready(function(){
     $("#1").click(function(){
         window.location.href = "table.html";
     });
-    $("#2").clicl(function(){
+    $("#2").click(function(){
         window.location.href = "form.html";
     });
 });
