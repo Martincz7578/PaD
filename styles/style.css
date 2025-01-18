@@ -1,3 +1,4 @@
+/*===========Fonts===========*/
 @font-face{
     font-family: playwrite;
     src: url(../fonts/PlaywriteAUSA-VariableFont_wght.ttf);
@@ -8,6 +9,7 @@
     src: url(../fonts/Jersey15-Regular.ttf);
 }
 
+/*===========By type===========*/
 body{
     margin: 0;
     padding: 0;
@@ -32,13 +34,17 @@ footer{
     background-color: #86A788;
 }
 
-.body{
-    margin: 2cm;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+select{
+    font-family: digital;
+    background-color: #FFE2E2;
+    border: none;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #EEBEBE;
 }
 
 hr{
@@ -62,6 +68,31 @@ button{
 button:hover{
     color: #FFE2E2;
     background-color: #EEBEBE;
+    transform: scale(2);
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-in-out;
+}
+
+button:active{
+    color: #FFE2E2;
+    background-color: #EEBEBE;
+    transform: scale(0.5);
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-in-out;
+}
+
+/*===========Custom===========*/
+.right{
+    float: right;
+}
+
+.body{
+    margin: 2cm;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .flex-container{

@@ -23,4 +23,31 @@ $(document).ready(function(){
     $("#form").click(function(){
         window.location.href = "form.html";
     });
+    function applyTheme() {
+        if($("#theme").val() == "dark"){
+            $('body').css("background-color", "#31363F");
+            $('header').css("border", "1px solid #76ABAE");
+            $('footer').css("border", "1px solid #76ABAE");
+            $('header').css("background-color", " #76ABAE");
+            $('footer').css("background-color", " #76ABAE");
+            $('button').css("background-color", "#DDDDDD");
+            $('select').css("background-color", "#DDDDDD");
+            $('button').css("color", "#BBBBBB");
+            $('select').css("color", "#BBBBBB");
+        }else{
+            $('body').css("background-color", "#FFFDEC");
+            $('header').css("border", "1px solid #86A788");
+            $('footer').css("border", "1px solid #86A788");
+            $('header').css("background-color", " #86A788");
+            $('footer').css("background-color", " #86A788");
+            $('button').css("background-color", "#FFE2E2");
+            $('select').css("background-color", "#FFE2E2");
+            $('button').css("color", "#EEBEBE");
+            $('select').css("color", "#EEBEBE");
+        }
+    }
+
+    $("#theme").change(function(){
+        applyTheme();
+    });
 });
