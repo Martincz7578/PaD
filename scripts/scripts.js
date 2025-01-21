@@ -26,6 +26,7 @@ $(document).ready(function(){
     function applyTheme() {
         if($("#theme").val() == "dark"){
             $('body').css("background-color", "#31363F");
+            $('body').css("color", "#000000");
             $('header').css("border", "1px solid #76ABAE");
             $('footer').css("border", "1px solid #76ABAE");
             $('header').css("background-color", " #76ABAE");
@@ -36,6 +37,7 @@ $(document).ready(function(){
             $('select').css("color", "#BBBBBB");
         }else{
             $('body').css("background-color", "#FFFDEC");
+            $('body').css("color", "#EEEEEE");
             $('header').css("border", "1px solid #86A788");
             $('footer').css("border", "1px solid #86A788");
             $('header').css("background-color", " #86A788");
