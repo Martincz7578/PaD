@@ -25,27 +25,17 @@ $(document).ready(function(){
     });
     function applyTheme() {
         if($("#theme").val() == "dark"){
-            $('body').css("background-color", "#31363F");
-            $('body').css("color", "#EEEEEE");
-            $('header').css("border", "1px solid #76ABAE");
-            $('footer').css("border", "1px solid #76ABAE");
-            $('header').css("background-color", " #76ABAE");
-            $('footer').css("background-color", " #76ABAE");
-            $('button').css("background-color", "#DDDDDD");
-            $('select').css("background-color", "#DDDDDD");
-            $('button').css("color", "#BBBBBB");
-            $('select').css("color", "#BBBBBB");
-        }else{
-            $('body').css("background-color", "#FFFDEC");
-            $('body').css("color", "#000000");
-            $('header').css("border", "1px solid #86A788");
-            $('footer').css("border", "1px solid #86A788");
-            $('header').css("background-color", " #86A788");
-            $('footer').css("background-color", " #86A788");
-            $('button').css("background-color", "#FFE2E2");
-            $('select').css("background-color", "#FFE2E2");
-            $('button').css("color", "#EEBEBE");
-            $('select').css("color", "#EEBEBE");
+            $('body').addClass("dark");
+            $('header').addClass("dark");
+            $('footer').addClass("dark");
+            $('button').addClass("dark");
+            $('select').addClass("dark");
+        }else if($("#theme").val() == "light"){
+            $('body').removeClass("dark");
+            $('header').removeClass("dark");
+            $('footer').removeClass("dark");
+            $('button').removeClass("dark");
+            $('select').removeClass("dark");
         }
     }
 

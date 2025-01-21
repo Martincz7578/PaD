@@ -35,6 +35,11 @@ footer{
     background-color: #86A788;
 }
 
+hr{
+    color: black;
+    border-color: black;
+}
+
 select{
     font-family: digital;
     background-color: #FFE2E2;
@@ -45,13 +50,9 @@ select{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    color: #EEBEBE;
+    color: #CC9C9C;
 }
 
-hr{
-    color: black;
-    border-color: black;
-}
 
 button{
     font-family: digital;
@@ -63,7 +64,7 @@ button{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    color: #EEBEBE;
+    color: #CC9C9C;
 }
 
 button:hover{
@@ -80,6 +81,74 @@ button:active{
     transform: scale(0.5);
     transform: translateY(-2px);
     transition: transform 0.2s ease-in-out;
+}
+
+select.dark{
+    font-family: digital;
+    background-color: #DDDDDD;
+    border: none;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #777777;
+}
+
+
+button.dark{
+    font-family: digital;
+    background-color: #DDDDDD;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #777777;
+}
+
+button:hover.dark{
+    color: #DDDDDD;
+    background-color: #777777;
+    transform: scale(2);
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-in-out;
+}
+
+button:active.dark{
+    color: #DDDDDD;
+    background-color: #777777;
+    transform: scale(0.5);
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-in-out;
+}
+
+body.dark{
+    margin: 0;
+    padding: 0;
+    background-color: #31363F;
+    color: #DDDDDD;
+    font-family: playwrite;
+}
+
+header.dark{
+    border: #76ABAE;
+    border-width: 2xp;
+    padding: 0;
+    margin: 0;
+    background-color: #76ABAE;
+}
+
+footer.dark{
+    border: #76ABAE;
+    border-width: 2xp;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+    background-color: #76ABAE;
 }
 
 /*===========Custom===========*/
