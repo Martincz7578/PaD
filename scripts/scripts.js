@@ -23,6 +23,13 @@ $(document).ready(function(){
     $("#form").click(function(){
         window.location.href = "form.html";
     });
+    $("#pb").click(function(){
+        window.location.href = "../drivers.html";
+    });
+    $("#bb").click(function(){
+        window.location.href = "../fw.html";
+    });
+    $
     function applyTheme() {
         if($("#theme").val() == "dark"){
             $('body').addClass("dark");
@@ -30,12 +37,14 @@ $(document).ready(function(){
             $('footer').addClass("dark");
             $('button').addClass("dark");
             $('select').addClass("dark");
+            $("body").addClass("bin");
         }else if($("#theme").val() == "light"){
             $('body').removeClass("dark");
             $('header').removeClass("dark");
             $('footer').removeClass("dark");
             $('button').removeClass("dark");
             $('select').removeClass("dark");
+            $("body").removeClass("bin");
         }
     }
 

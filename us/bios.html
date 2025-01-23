@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOS</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../scripts/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1><strong>Programy a data</strong></h1>
+        <button name="home" id="home">Home</button>
+        <button name="pds" id="pds">Programové a datové soubory</button>
+        <button name="os" id="os">Operační systémy</button>
+        <button name="drivers" id="drivers">Ovladače</button>
+        <button name="fw" id="fw">Firmware</button>
+        <button name="l" id="l">Licence</button>
+        <hr>
+    </header>
+    <div class="body">
+        <button name="back" id="bb"><- Zpět</button>
+        <p><strong>BIOS (anglicky Basic Input-Output System)</strong> implementuje základní vstupně-výstupní funkce pro počítače <strong>IBM PC</strong> kompatibilní a představuje vlastně firmware pro osobní počítače.</p> 
+        <p>Až do příchodu Windows 8 se BIOS používal při startu počítače pro inicializaci a konfiguraci připojených hardwarových zařízení a následnému spuštění operačního systému, kterému je pak předáno další řízení počítače.</p>
+        <p>V novějších počítačích (zhruba od druhé dekády 21. století) je postupně nahrazován systémem UEFI.</p>
+        <p>Programový kód BIOSu je uložen na základní desce v nevolatilní (stálé) paměti typu <strong>ROM, EEPROM</strong> nebo modernější flash paměti s možností jednoduché aktualizace (anglicky update).</p>
+        <img src="../img/bios.png" alt="logo BIOS" width="640" height="400">
+    </div>
+    <footer>
+        <hr>
+        <p>&copy;2025 Martin Mysteriózní</p>
+        <img src="../img/skola-logo.png" alt="logo školy">
+        <div class="right">
+            <label for="theme">Vzhled:</label>
+            <select name="theme" id="theme">
+                <option value="light">Světlý</option>
+                <option value="dark">Tmavý</option>
+            </select>
+        </div>
+        <hr>
+    </footer>
+</body>
+</html>

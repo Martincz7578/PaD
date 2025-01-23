@@ -83,6 +83,7 @@ button:active{
     transition: transform 0.2s ease-in-out;
 }
 
+/*=====dark mode=====*/
 select.dark{
     font-family: digital;
     background-color: #DDDDDD;

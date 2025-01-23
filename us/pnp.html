@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Úvodní stránka</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Plug and Play</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+    <script src="../scripts/scripts.js"></script>
+</head>
 </head>
 <body>
     <header>
@@ -21,19 +22,15 @@
         <hr>
     </header>
     <div class="body">
-        <h1>Úvodní Stránka</h1>
-        <div class="flex-container">
-            <button id="table" name="table">Tabulky</button>
-            <img src="img/html.png" alt="html" width="200" height="200">
-            <img src="img/css.png" alt="css" width="150" height="200">
-            <img src="img/js.png" alt="js" width="150" height="200">
-            <button id="form" name="form">Formulář</button>  
-        </div>  
+        <button name="back" id="pb"><- Zpět</button>
+        <p><strong>Plug and Play (v překladu „připoj a hraj“)</strong> je počítačová technologie umožňující jednodušší rozpoznávání a konfigurace hardware. </p>
+        <p>Umožňuje operačním systémům správně zjistit, jaký hardware je v počítači, na základě čehož může automaticky (s větší či menší úspěšností) k tomuto hardware nainstalovat či spustit příslušné ovladače a automaticky nastavit číslo přerušení, I/O adresu, rozsahy sdílené paměti, případně další skutečnosti (např. detaily o typu zařízení).</p>
+        <img src="../img/pnp.png" alt="logo PnP" width="500" height="500">
     </div>
     <footer>
         <hr>
         <p>&copy;2025 Martin Mysteriózní</p>
-        <img src="img/skola-logo.png" alt="logo školy">
+        <img src="../img/skola-logo.png" alt="logo školy">
         <div class="right">
             <label for="theme">Vzhled:</label>
             <select name="theme" id="theme">
